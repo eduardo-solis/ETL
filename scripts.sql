@@ -62,20 +62,20 @@ INSERT INTO temporada(nombre) VALUES
 
 INSERT INTO jugador(nombre, apePaterno, apeMaterno, fechaNacimiento, idEquipo) VALUES
 ('Cristiano Ronaldo ', 'Dos Santos', ' Aveiro', '1985-02-05', 1),
-('Marco', 'van Basten', null, '1964-02-05', 2),
+('Marco', ' van Basten', null, '1964-02-05', 2),
 ('Gerhard ', 'Müller', null, '1945-11-03', 3),
 ('Karim Mostafa ', 'Benzema ', null, '1987-12-19', 1),
 ('Andriy', 'Mykolayovych  ', 'Shevchenko  ', '1976-06-25', 2),
 ('Robert ', ' Lewandowski', null, '1988-08-21', 3),
-('Alfredo ', 'Di Stéfano', null, '1926-07-04', 1),
-('Ruud', 'Gullit ', null, '1962-09-01', 2),
-('Arjen', 'Robben', null, '1984-01-23', 3),
-('Mesut', 'Özil', null, '1988-10-13', 1),
+('Alfredo ', ' Di Stéfano', null, '1926-07-04', 1),
+('Ruud', ' Gullit ', null, '1962-09-01', 2),
+(' Arjen', ' Robben ', null, '1984-01-23', 3),
+(' Mesut', 'Özil', null, '1988-10-13', 1),
 ('Zlatan ', 'Ibrahimović', null, '1981-10-31', 2),
-('Franck Henry', 'Ribéry', null, '1983-04-07', 3),
-('Luka', 'Modrić', null, '1985-09-09', 1),
-('Andrea', 'Pirlo', null, '1979-05-19', 2),
-('Thomas', 'Müller ', null, '1989-08-13', 3);
+(' Franck Henry', 'Ribéry', null, '1983-04-07', 3),
+(' Luka', 'Modrić ', null, '1985-09-09', 1),
+('Andrea ', 'Pirlo ', null, '1979-05-19', 2),
+('Thomas ', 'Müller ', null, '1989-08-13', 3);
 
 INSERT INTO estadistica(partidos, goles, asistencias, idJugador, idTemporada) VALUES
 (35, 48, 16, 1, 7),
